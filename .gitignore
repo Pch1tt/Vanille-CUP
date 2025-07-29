@@ -1,0 +1,24 @@
+# Python cache and env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Data files (you can remove lines below if you want to share data files)
+data/*.json
+
+# Token or secret files
+.env
+
+# Server password file
+cfg/cfg-secrets/passwords.cfg
+
+# Log Server folder
+/home/ubuntu/vanillecup_servers/log
+
+# IDE/editor specific
+.vscode/
+.idea/
