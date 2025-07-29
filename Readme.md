@@ -36,15 +36,15 @@ python3 bot_vanilleCUP2.py
 ```
 
 2. Bot current commands:
-# Register a team, usage: !register teamname @captain @player2 @player3
+#### Register a team, usage: !register teamname @captain @player2 @player3
 !register
-# Reload teams from teams.json file, according this you can manually update it
+#### Reload teams from teams.json file, according this you can manually update it
 !reloadteams
-# Start Group Phase, usage: !startgroups 1 (by default which means you will only have 1 round, so 1 game for each team)
+#### Start Group Phase, usage: !startgroups 1 (by default which means you will only have 1 round, so 1 game for each team)
 !startgroups
-# Display or update standings even if it's automaticaly forces when you launch Group phases
+#### Display or update standings even if it's automaticaly forces when you launch Group phases
 !standings
-# Force knockout bracket if Group phase are not finished (for instance: a team gave up during tournament), usage: !startknockout 2/3 (by default which means you only get 2/3*total_team_number of teams qualified for bracket)
+#### Force knockout bracket if Group phase are not finished (for instance: a team gave up during tournament), usage: !startknockout 2/3 (by default which means you only get 2/3*total_team_number of teams qualified for bracket)
 !startknockout
 
 ### Contribution
