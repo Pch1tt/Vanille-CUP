@@ -28,8 +28,8 @@ cd Vanille-CUP
 ### Setup Instructions
 1. Clone the repo & install python bot
 ```bash
-git clone https://github.com/yourusername/VanilleCUPBot.git
-cd VanilleCUPBot
+git clone https://github.com/yourusername/Vanille-CUP.git
+cd Vanille-CUP
 export DISCORD_BOT_TOKEN=your_actual_token
 pip install -r requirements.txt
 python3 bot_vanilleCUP2.py
