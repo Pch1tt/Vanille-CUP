@@ -20,8 +20,8 @@ COMMAND_BASE=/home/ubuntu/ddnet-insta-server/DDNet-Server
 ```
 Then execute:
 ```bash
-git clone https://github.com/yourusername/VanilleCUPBot.git
-cd VanilleCUPBot
+git clone https://github.com/yourusername/Vanille-CUP.git
+cd Vanille-CUP
 ./scripts/launch_servers.sh
 ```
 
