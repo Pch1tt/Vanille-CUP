@@ -1,0 +1,223 @@
+nohup: ignoring input
+2025-08-15 18:35:14 I engine: running on unix-linux-amd64
+2025-08-15 18:35:14 I engine: arch is little endian
+2025-08-15 18:35:14 I engine: operating system version: Linux 5.4.0-177-generic (x86_64, #197-Ubuntu SMP Thu Mar 28 22:45:47 UTC 2024); "Ubuntu 20.04.6 LTS"
+2025-08-15 18:35:14 E storage: couldn't open storage.cfg
+2025-08-15 18:35:14 I storage: using standard paths
+2025-08-15 18:35:14 I storage: added path '$USERDIR' ('/home/ubuntu/.local/share/ddnet')
+2025-08-15 18:35:14 I storage: added path '$DATADIR' ('/home/ubuntu/ddnet-insta-server/data')
+2025-08-15 18:35:14 I storage: added path '$CURRENTDIR' ('/home/ubuntu/astral')
+2025-08-15 18:35:14 I console: executing 'autoexec_server.cfg'
+2025-08-15 18:35:14 I server: added maps to votes
+2025-08-15 18:35:14 I console: failed to open 'myServerconfig.cfg'
+2025-08-15 18:35:14 I console: failed to open '/home/ubuntu/vanillecup_servers/server_i.cfg'
+2025-08-15 18:35:14 I server: using port 8303
+2025-08-15 18:35:14 I http: libcurl version 7.68.0 (compiled = 7.68.0)
+2025-08-15 18:35:14 I server: server name is 'My DDNet server'
+2025-08-15 18:35:14 I server: version 19.4 on linux amd64
+2025-08-15 18:35:14 I server: git revision hash: a0ba1331468ed56e
+2025-08-15 18:35:14 I server: Loaded 0 announcements
+2025-08-15 18:35:14 I server: Found 67 maps for maplist
+2025-08-15 18:35:14 I server: +-------------------------+
+2025-08-15 18:35:14 I server: | rcon password: 'aC8TcK' |
+2025-08-15 18:35:14 I server: +-------------------------+
+2025-08-15 18:46:10: Checking for process DDNet-Server...
+2025-08-15 18:46:10: Running count (sanitized) = 00
+2025-08-15 18:46:10: Instance count configured = 1
+2025-08-15 18:46:10: DDNet-Server running only 00 instances; starting 1 missing.
+2025-08-15 18:46:10: Attempting to start instance 1 with config file: cfg/autoexec.cfg
+2025-08-15 18:46:10: WARNING: Config file 'cfg/autoexec.cfg' does not exist.
+2025-08-15 18:46:10: Running command: nohup "/home/ubuntu/ddnet-insta-server/DDNet-Server" -f "cfg/autoexec.cfg" >> "/home/ubuntu/vanillecup_servers/log/launch_servers.log" 2>&1 &
+2025-08-15 18:46:10 I engine: running on unix-linux-amd64
+2025-08-15 18:46:10 I engine: arch is little endian
+2025-08-15 18:46:10 I engine: operating system version: Linux 5.4.0-177-generic (x86_64, #197-Ubuntu SMP Thu Mar 28 22:45:47 UTC 2024); "Ubuntu 20.04.6 LTS"
+2025-08-15 18:46:10 E storage: couldn't open storage.cfg
+2025-08-15 18:46:10 I storage: using standard paths
+2025-08-15 18:46:10 I storage: added path '$USERDIR' ('/home/ubuntu/.local/share/ddnet')
+2025-08-15 18:46:10 I storage: added path '$DATADIR' ('/home/ubuntu/ddnet-insta-server/data')
+2025-08-15 18:46:10 I storage: added path '$CURRENTDIR' ('/home/ubuntu/vanillecup_servers')
+2025-08-15 18:46:10 I console: executing 'autoexec_server.cfg'
+2025-08-15 18:46:10 I server: added maps to votes
+2025-08-15 18:46:10 I console: failed to open 'myServerconfig.cfg'
+2025-08-15 18:46:10 I console: executing 'cfg/autoexec.cfg'
+2025-08-15 18:46:10 I chatresp: No such command: sv_fastcap.
+2025-08-15 18:46:10 I console: executing 'cfg/permissions.cfg'
+2025-08-15 18:46:10 I console: moderator access for 'echo' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'echo' is now disabled
+2025-08-15 18:46:10 I console: user access for 'echo' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'broadcast' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'broadcast' is now disabled
+2025-08-15 18:46:10 I console: user access for 'broadcast' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'say' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'say' is now disabled
+2025-08-15 18:46:10 I console: user access for 'say' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'mutes' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'mutes' is now disabled
+2025-08-15 18:46:10 I console: user access for 'mutes' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'mute' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'mute' is now disabled
+2025-08-15 18:46:10 I console: user access for 'mute' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'muteid' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'muteid' is now disabled
+2025-08-15 18:46:10 I console: user access for 'muteid' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'muteip' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'muteip' is now disabled
+2025-08-15 18:46:10 I console: user access for 'muteip' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'unmute' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'unmute' is now disabled
+2025-08-15 18:46:10 I console: user access for 'unmute' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'unmuteip' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'unmuteip' is now disabled
+2025-08-15 18:46:10 I console: user access for 'unmuteip' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'vote_mutes' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'vote_mutes' is now disabled
+2025-08-15 18:46:10 I console: user access for 'vote_mutes' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'vote_mute' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'vote_mute' is now disabled
+2025-08-15 18:46:10 I console: user access for 'vote_mute' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'vote_unmute' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'vote_unmute' is now disabled
+2025-08-15 18:46:10 I console: user access for 'vote_unmute' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'logout' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'logout' is now disabled
+2025-08-15 18:46:10 I console: user access for 'logout' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'vote' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'vote' is now disabled
+2025-08-15 18:46:10 I console: user access for 'vote' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'force_vote' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'force_vote' is now disabled
+2025-08-15 18:46:10 I console: user access for 'force_vote' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'unban' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'unban' is now disabled
+2025-08-15 18:46:10 I console: user access for 'unban' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'kick' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'kick' is now disabled
+2025-08-15 18:46:10 I console: user access for 'kick' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'ban' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'ban' is now disabled
+2025-08-15 18:46:10 I console: user access for 'ban' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'bans' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'bans' is now disabled
+2025-08-15 18:46:10 I console: user access for 'bans' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'name_ban' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'name_ban' is now disabled
+2025-08-15 18:46:10 I console: user access for 'name_ban' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'name_unban' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'name_unban' is now disabled
+2025-08-15 18:46:10 I console: user access for 'name_unban' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'name_bans' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'name_bans' is now disabled
+2025-08-15 18:46:10 I console: user access for 'name_bans' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'status' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'status' is now disabled
+2025-08-15 18:46:10 I console: user access for 'status' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'set_team' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'set_team' is now disabled
+2025-08-15 18:46:10 I console: user access for 'set_team' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'set_team_all' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'set_team_all' is now disabled
+2025-08-15 18:46:10 I console: user access for 'set_team_all' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'restart' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'restart' is now disabled
+2025-08-15 18:46:10 I console: user access for 'restart' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'reload' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'reload' is now disabled
+2025-08-15 18:46:10 I console: user access for 'reload' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'shutdown' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'shutdown' is now disabled
+2025-08-15 18:46:10 I console: user access for 'shutdown' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'shuffle_teams' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'shuffle_teams' is now disabled
+2025-08-15 18:46:10 I console: user access for 'shuffle_teams' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'access_status' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'access_status' is now disabled
+2025-08-15 18:46:10 I console: user access for 'access_status' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_player_ready_mode' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_player_ready_mode' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_player_ready_mode' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_force_ready_all' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_force_ready_all' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_force_ready_all' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_grenade_ammo_regen' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_grenade_ammo_regen' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_grenade_ammo_regen' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_grenade_ammo_regen_on_kill' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_grenade_ammo_regen_on_kill' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_grenade_ammo_regen_on_kill' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_grenade_ammo_regen_reset_on_fire' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_grenade_ammo_regen_reset_on_fire' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_grenade_ammo_regen_reset_on_fire' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_spamprotection' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_spamprotection' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_spamprotection' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_sprayprotection' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_sprayprotection' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_sprayprotection' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_countdown_unpause' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_countdown_unpause' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_countdown_unpause' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_countdown_round_start' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_countdown_round_start' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_countdown_round_start' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_spectator_slots' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_spectator_slots' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_spectator_slots' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_scorelimit' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_scorelimit' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_scorelimit' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_map' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_map' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_map' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_timelimit' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_timelimit' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_timelimit' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'swap_teams' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'swap_teams' is now disabled
+2025-08-15 18:46:10 I console: user access for 'swap_teams' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'swap_teams_random' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'swap_teams_random' is now disabled
+2025-08-15 18:46:10 I console: user access for 'swap_teams_random' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'sv_force_ready_all' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'sv_force_ready_all' is now disabled
+2025-08-15 18:46:10 I console: user access for 'sv_force_ready_all' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'pause_game' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'pause_game' is now disabled
+2025-08-15 18:46:10 I console: user access for 'pause_game' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'force_ready' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'force_ready' is now disabled
+2025-08-15 18:46:10 I console: user access for 'force_ready' is now disabled
+2025-08-15 18:46:10 I console: moderator access for 'change_map' is now enabled
+2025-08-15 18:46:10 I console: helper access for 'change_map' is now disabled
+2025-08-15 18:46:10 I console: user access for 'change_map' is now disabled
+2025-08-15 18:46:10 I console: executing 'cfg/cfg-secrets/passwords.cfg'
+2025-08-15 18:46:10 I console: executing 'cfg/vanillecfg/on.cfg'
+2025-08-15 18:46:10 I ddnet-insta: Warning: sv_tournament_chat is currently set to 0 you might want to update that too.
+2025-08-15 18:46:10 I chatresp: No such command: sv_fastcap.
+2025-08-15 18:46:10 I console: executing 'cfg/vanillecfg/votes.cfg'
+2025-08-15 18:46:10 I http: libcurl version 7.68.0 (compiled = 7.68.0)
+2025-08-15 18:46:10 I econ: bound to localhost:1024
+2025-08-15 18:46:10 I fifo: 'lib/var/server.fifo' is not a fifo, removing
+2025-08-15 18:46:10 I fifo: can't remove file 'lib/var/server.fifo'
+2025-08-15 18:46:10 I server: server name is 'Vanille CUP #server 1'
+2025-08-15 18:46:10 I ddnet-insta: connecting to database ...
+2025-08-15 18:46:10 I server: version 19.4 on linux amd64
+2025-08-15 18:46:10 I server: git revision hash: a0ba1331468ed56e
+2025-08-15 18:46:10 I server: Loaded 0 announcements
+2025-08-15 18:46:10 I server: Found 67 maps for maplist
+2025-08-15 18:46:10 I sql: SQLite statement: CREATE TABLE IF NOT EXISTS gctf(name        VARCHAR(15)   COLLATE BINARY  NOT NULL,first_seen  TIMESTAMP     NOT NULL DEFAULT CURRENT_TIMESTAMP, points      INTEGER       DEFAULT 0,kills       INTEGER       DEFAULT 0,deaths      INTEGER       DEFAULT 0,spree       INTEGER       DEFAULT 0,win_points  INTEGER       DEFAULT 0,wins        INTEGER       DEFAULT 0,losses      INTEGER       DEFAULT 0,shots_fired INTEGER       DEFAULT 0,shots_hit   INTEGER       DEFAULT 0,flag_grabs  INTEGER  DEFAULT 0,flag_captures  INTEGER  DEFAULT 0,flagger_kills  INTEGER  DEFAULT 0,PRIMARY KEY (name));
+2025-08-15 18:46:10 I sql: SQLite statement: SELECT COUNT() FROM pragma_table_info('gctf') WHERE name = 'win_points';
+2025-08-15 18:46:10 I sql: SQLite statement: SELECT COUNT() FROM pragma_table_info('gctf') WHERE name = 'steals_from_others';
+2025-08-15 18:46:10 I sql: SQLite statement: SELECT COUNT() FROM pragma_table_info('gctf') WHERE name = 'steals_by_others';
+2025-08-15 18:46:10 I sql: SQLite statement: CREATE TABLE IF NOT EXISTS fastcaps( name        VARCHAR(15)   COLLATE BINARY NOT NULL, map         VARCHAR(128)  COLLATE BINARY NOT NULL,  timestamp   TIMESTAMP     NOT NULL DEFAULT CURRENT_TIMESTAMP,  time        FLOAT         DEFAULT 0,  server      CHAR(4),  gametype    VARCHAR(128)  COLLATE BINARY NOT NULL, grenade     BOOL          DEFAULT FALSE, stat_track  BOOL          DEFAULT FALSE, game_id     VARCHAR(64), PRIMARY KEY (name, map, time, timestamp));
+2025-08-15 18:46:11 I register/6/ipv4: registering...
+2025-08-15 18:46:11 I register/7/ipv4: registering...
+2025-08-15 18:46:11 I register/7/ipv4: registering...
+2025-08-15 18:46:11 I register/6/ipv4: registering...
+2025-08-15 18:46:11 I register/7/ipv4: successfully registered
+2025-08-15 18:46:11 I register/6/ipv4: successfully registered
+2025-08-15 18:46:16: Running count after start attempts (sanitized) = 1
+2025-08-15 18:46:16: Successfully started DDNet-Server instances: now 1 running.
+2025-08-15 18:49:15 I server: player has entered the game. ClientId=0 addr=<{91.160.195.164:10209}> sixup=0
+2025-08-15 18:49:15 I sql: SQLite statement: SELECT points, kills, deaths, spree, win_points, wins, losses, shots_fired, shots_hit , flag_grabs, flag_captures, flagger_kills FROM gctf WHERE name = 'Puch';
+2025-08-15 18:49:15 I ddnet: cid=0 version=19040
+2025-08-15 18:49:19 I game: leave player='0:Puch'

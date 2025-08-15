@@ -15,22 +15,25 @@ else
   echo "Warning: $ENV_FILE not found, using default vars"
 fi
 
-# Use environment variables from .env or default fallback values
+# Set default environment variables if not already set
 PROCESS_NAME="${PROCESS_NAME:-DDNet-Server}"
-BASE_DIR="${BASE_DIR:-/home/ubuntu/ddnet-insta}"
+BASE_DIR="${BASE_DIR:-/home/ubuntu/ddnet-insta-server}"
 CFG_DIR="${CFG_DIR:-/home/ubuntu/vanillecup_servers}"
 LOG_FILE="${LOG_FILE:-/home/ubuntu/vanillecup_servers/log/launch_servers.log}"
-INSTANCE_COUNT="${INSTANCE_COUNT:-5}"
+INSTANCE_COUNT="${INSTANCE_COUNT:-1}"
 COMMAND_BASE="${COMMAND_BASE:-${BASE_DIR}/DDNet-Server}"
 
-# Debug output to confirm loaded env vars
-echo "Using configuration:"
-echo "PROCESS_NAME=$PROCESS_NAME"
-echo "BASE_DIR=$BASE_DIR"
-echo "CFG_DIR=$CFG_DIR"
-echo "LOG_FILE=$LOG_FILE"
-echo "INSTANCE_COUNT=$INSTANCE_COUNT"
-echo "COMMAND_BASE=$COMMAND_BASE"
+# Print environment variables to verify (optional)
+echo "Process Name: $PROCESS_NAME"
+echo "Base Directory: $BASE_DIR"
+echo "Config Directory: $CFG_DIR"
+echo "Log File: $LOG_FILE"
+echo "Instance Count: $INSTANCE_COUNT"
+echo "Command Base: $COMMAND_BASE"
+
+# Your server start command here, e.g.,
+# $COMMAND_BASE
+
 
 # Timestamp function for logging
 timestamp() {
